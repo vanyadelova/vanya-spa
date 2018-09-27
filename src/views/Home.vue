@@ -2,6 +2,8 @@
   <div class="home">
     
     <VButton text="schedules"/>
+    <VButton text="location"/>
+
   </div>
 </template>
 
@@ -22,5 +24,7 @@ export default {
 
 
 <style>
-
+    body {
+        background: black
+    }
 </style>
