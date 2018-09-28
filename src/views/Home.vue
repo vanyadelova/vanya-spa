@@ -23,7 +23,8 @@ export default {
   components: {
     HelloWorld,
     VButton,
-      Logo
+      Logo,
+      
       
   }
 }

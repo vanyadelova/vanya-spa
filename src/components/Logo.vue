@@ -1,5 +1,7 @@
 <template>
+<div id ="logo">
 <img src="nysl_logo.png" alt="">
+</div>
 </template>
 
 <script>
@@ -13,8 +15,8 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
-    img {
-         width: 50px;
-    
+    #logo {
+         width: 20px;
+     
     }
 </style>
