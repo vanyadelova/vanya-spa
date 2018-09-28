@@ -1,6 +1,8 @@
 <template>
  
   <div class="home">
+   
+   <img src="nysl_logo.png" alt="">
     
     <VButton text="Schedule"/>
     <VButton text="Locations"/>
@@ -20,7 +22,8 @@ export default {
   name: 'home',
   components: {
     HelloWorld,
-    VButton
+    VButton,
+      Logo
       
   }
 }
