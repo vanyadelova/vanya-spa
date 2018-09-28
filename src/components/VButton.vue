@@ -15,7 +15,7 @@ export default {
 <style scoped>
     button {
         font-size: 28px;
-        background: yellow;
+        background: gold;
         border-radius: 50px;
         display: block;
         width: 100%;
@@ -25,6 +25,6 @@ export default {
         transition: all .3s;
     }
     button:hover {
-        background: orange
+        background: orange;
     }
 </style>
