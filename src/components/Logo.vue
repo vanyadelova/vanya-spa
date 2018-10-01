@@ -1,6 +1,6 @@
 <template>
-<div id ="logo">
-<img src="nysl_logo.png" alt="">
+<div >
+<img id ="logo" src="nysl_logo.png" alt="">
 </div>
 </template>
 
@@ -16,7 +16,7 @@ export default {
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
     #logo {
-         width: 20px;
+         width: 20%;
      
     }
 </style>
