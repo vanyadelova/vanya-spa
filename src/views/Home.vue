@@ -15,7 +15,8 @@
     <router-link class="link" to="/Schedule">Schedule</router-link>
     <VButton text="Locations"/>
     <VButton text="Results"/>
-    <VButton text="Log in & Chat"/>
+    <router-link class="link" to="/Login">Log in & Chat</router-link>
+
 
   </div>
 </template>

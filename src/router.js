@@ -2,6 +2,7 @@
 import Router from 'vue-router'
 import Home from './views/Home.vue'
 import Schedule from './views/Schedule.vue'
+import Login from './views/Login.vue'
 
 
 Vue.use(Router)
@@ -25,6 +26,11 @@ export default new Router({
         path: '/schedule',
         name: 'Schedule',
         component: Schedule 
+    },
+       {
+        path: '/Login',
+        name: 'Login',
+        component: Login
     }
   ]
 })
