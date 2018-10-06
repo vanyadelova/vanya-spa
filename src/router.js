@@ -3,6 +3,7 @@ import Router from 'vue-router'
 import Home from './views/Home.vue'
 import Schedule from './views/Schedule.vue'
 import Login from './views/Login.vue'
+import Results from './views/Results.vue'
 
 
 Vue.use(Router)
@@ -31,6 +32,11 @@ export default new Router({
         path: '/Login',
         name: 'Login',
         component: Login
+    },
+       {
+      path: '/Results',
+      name: 'Results',
+      component: Results
     }
   ]
 })
